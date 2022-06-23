@@ -3,7 +3,7 @@ $table_name = 'struct';
 function conn_db() {
     $db_host = "localhost";
     $db_login = "root";
-    $db_password = "root";
+    $db_password = "";
     $db_name = "tree";
     $db_conn = new mysqli ($db_host, $db_login, $db_password);
     mysqli_select_db($db_conn,"tree") or die(mysqli_error($db_conn));
