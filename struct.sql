@@ -21,7 +21,7 @@ SET time_zone = "+00:00";
 -- Baza danych: `tree`
 --
 
--- --------------------------------------------------------
+CREATE DATABASE `tree`;
 
 --
 -- Struktura tabeli dla tabeli `struct`
